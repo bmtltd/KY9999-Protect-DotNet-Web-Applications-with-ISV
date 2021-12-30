@@ -14,6 +14,7 @@ plugins:
       max_workers: 5
 markdown_extensions:
   - abbr
+  - attr_list
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true 
@@ -24,12 +25,16 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - admonition
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 extra:
   generator: false
   social: 
     - icon: fontawesome/brands/github
       link: https://github.com/bmtltd
-
+extra_css:
+  - stylesheets/extra.css
 copyright: 
   <small>Documentation provided by</small><br /><br />
   <img src="/assets/bmt-logo-small-white.png" />

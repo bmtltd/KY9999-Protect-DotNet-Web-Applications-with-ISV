@@ -2,6 +2,12 @@
 
 This how-to guide is meant to show simple examples to help you get started with protecting your web applications using IBM Security Verify (ISV). To the left you'll find guides for protecting MVC web applications using OIDC. You will also see instructions on how to protect your APIs using OAuth introspection.
 
+All of our examples start from a blank slate, then at the end you have a working product. That said, it is easier, feel free to download copies of our code from the Github repo linked below.
+
+[:material-github: Go to Github Repo](https://github.com/bmtltd/KY9999-Protect-DotNet-Web-Applications-with-ISV/){ .md-button .md-button--primary .bmt-btn-github }
+
+
+
 ## Why use IBM Security Verify?
 
 Our blog post coverts this in greater detail ([click here](https://www.bmt.ky/protect-your-custom-web-application-with-ibm-security-verify/)), but just to summarise, if your development strategy still uses Windows Authentication, you need to start rethinking how you're developing. When you IBM Security Verify to protect your web applications you get things like conditional-access policies, behaviour-based/risk-based MFA, Access Review and other neat features not included with Windows Authentication, or even Azure AD. 
@@ -25,4 +31,4 @@ Remember, these are meant to be simple authentication/authorisation examples jus
 
 ## See mistakes/bugs in our examples?
 
-If you notice an issue with our documentation, please let us know. We want to fix everything.
+If you notice an issue with our documentation, please let us know. We want to fix everything. Just raise an issue in Github, and we'll address it.

@@ -103,4 +103,6 @@ Error: **CSIAQ0167E**
 
 For security reasons, the URL to your web application must match one of the `Redirect URIs` defined in ISV for your OIDC web application. In our examples we assumed it would be `https://localhost:50001`. That is because when you run a .NET web application locally, .NET will almost always assign that URL to your web application. If, however, port `5001` is already being used, .NET will randomly assign a new port to your web application. If that occurs, you need to update the `Redirect URI` in the ISV Admin Portal or in the `IBM Security Verify Developer Portal`.
 
+
+
 *[ISV]: IBM Security Verify
