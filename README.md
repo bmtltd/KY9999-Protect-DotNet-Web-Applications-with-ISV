@@ -1,2 +1,8 @@
-# KY9999-Website-How-To-Protect-your-custom-web-application-with-ISV
-How to protect a custom-built website using IBM Security Verify SSO
+# How to protect a custom-built website using IBM Security Verify SSO
+
+1.  Create a new .NET Core Web Application using:
+    ```
+    dotnet new webapp
+    ```
+
+2.  
