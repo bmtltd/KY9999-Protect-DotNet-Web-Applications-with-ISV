@@ -1,0 +1,41 @@
+site_name: Protect applications using IBM Security Verify
+theme:
+  name: material
+  logo: assets/bmt.png
+  favicon: assets/bmt.png
+  palette:
+    scheme: slate
+    primary: teal
+  features:
+    - content.code.annotate
+plugins:
+  - diagrams:
+      file_extension: ".diagrams.py"
+      max_workers: 5
+markdown_extensions:
+  - abbr
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - codehilite:
+      guess_lang: false
+      use_pygments: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - admonition
+  - pymdownx.details
+extra:
+  generator: false
+  social: 
+    - icon: fontawesome/brands/github
+      link: https://github.com/bmtltd
+
+copyright: 
+  <small>Documentation provided by</small><br /><br />
+  <img src="/assets/bmt-logo-small-white.png" />
+  <p>
+  PO Box 2056,<br />
+  Grand Cayman KY1-1105<br />
+  Cayman Islands<br />
+  <a href="https://www.bmt.ky">https://www.bmt.ky</a>
+  </p>
